@@ -35,8 +35,6 @@ const Controller = () => {
         document.getElementById("controller").reset();
     }
 
-    console.log("s");
-
     return (
         <form id="controller" onSubmit={onAddHandler} className="flex w-full flex-col items-end gap-4 p-3 bg-gray-200 rounded-lg">
             <div className="flex items-center gap-4 w-full">
